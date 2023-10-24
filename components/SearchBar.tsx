@@ -25,7 +25,7 @@ const SearchBar = () => {
     >
       <SearchNormal1 size="20" color="#888" />
       <TextInput
-        placeholder="Search"
+        placeholder="Search (not implemented yet :'( )"
         style={{
           width: 287,
           height: 40,

@@ -19,7 +19,7 @@ const MainStack = () => {
       initialRouteName="Home"
       screenOptions={{ headerShown: false }}
     >
-      <Stack.Screen name="Home" component={HomeTab} />
+      <Stack.Screen name="Home" component={HomeStack} />
       <Stack.Screen name="Auth" component={AuthStack} />
     </Stack.Navigator>
   );
@@ -41,35 +41,35 @@ const HomeStack = () => {
   return (
     <Stack.Navigator
       initialRouteName="Home"
-      screenOptions={{ headerShown: false }}
+      // screenOptions={{ headerShown: false }}
     >
-      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
       <Stack.Screen name="Details" component={Details} />
     </Stack.Navigator>
   );
 };
 
-const HomeTab = () => {
-  return (
-    <Tab.Navigator>
-      <Tab.Screen
-        name="Home"
-        component={HomeStack}
-        options={{ headerShown: false }}
-      />
-      <Tab.Screen name="Search" component={Search} />
-      <Tab.Screen name="Info" component={Info} />
-    </Tab.Navigator>
-  );
-};
+// const HomeTab = () => {
+//   return (
+//     <Tab.Navigator>
+//       <Tab.Screen
+//         name="Home"
+//         component={HomeStack}
+//         options={{ headerShown: false }}
+//       />
+//       <Tab.Screen name="Search" component={Search} />
+//       <Tab.Screen name="Info" component={Info} />
+//     </Tab.Navigator>
+//   );
+// };
 
 export default function App() {
   return (
-    <NativeBaseProvider>
+    // <NativeBaseProvider>
       <NavigationContainer>
         <MainStack />
       </NavigationContainer>
-    </NativeBaseProvider>
+    // </NativeBaseProvider>
   );
 }
 

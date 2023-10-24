@@ -4,38 +4,40 @@ import { style } from "../screens/styles";
 import color from "../screens/color";
 import { Clock, Location } from "iconsax-react-native";
 import { useNavigation } from "@react-navigation/native";
+import { status } from "../screens/status";
 
 const icon_size = 18;
 
 const Card = (props: any) => {
   const navigation = useNavigation<any>();
-  const status = (abbr: any) => {
-    switch (abbr) {
-      case "LC":
-        return require("../assets/status/LC.png");
+  // const status = (abbr: any) => {
+  //   switch (abbr) {
+  //     case "LC":
+  //       return require("../assets/status/LC.png");
 
-      case "NT":
-        return require("../assets/status/NT.png");
+  //     case "NT":
+  //       return require("../assets/status/NT.png");
 
-      case "VU":
-        return require("../assets/status/VU.png");
+  //     case "VU":
+  //       return require("../assets/status/VU.png");
 
-      case "EN":
-        return require("../assets/status/EN.png");
+  //     case "EN":
+  //       return require("../assets/status/EN.png");
 
-      case "CR":
-        return require("../assets/status/CR.png");
+  //     case "CR":
+  //       return require("../assets/status/CR.png");
 
-      case "EW":
-        return require("../assets/status/EW.png");
+  //     case "EW":
+  //       return require("../assets/status/EW.png");
 
-      case "EX":
-        return require("../assets/status/EX.png");
+  //     case "EX":
+  //       return require("../assets/status/EX.png");
 
-      default:
-        break;
-    }
-  };
+  //     default:
+  //       break;
+  //   }
+  // };
+
   return (
     <View>
       <TouchableOpacity

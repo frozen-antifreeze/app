@@ -11,7 +11,7 @@ export const data = [
   //   age_unit: '',
   //   info: "",
   //   status: "",
-  //   source: require('../assets/favicon.png')
+  //   source: require('../assets/.jpg')
   // },
 
   {
@@ -132,6 +132,306 @@ export const data = [
     info: "Cây Gõ Đen là một loại cây gỗ quý hiếm, được sử dụng trong chế tác đồ gỗ, nhạc cụ và nội thất cao cấp.",
     status: "EN",
     source: require('../assets/pants/10.jpg')
+  },
+
+  {
+    id: "11",
+    name: "Cây Cỏ Mỡ",
+    scientific_name: "Portulaca oleracea",
+    origin: "Toàn cầu",
+    avg_age: "1",
+    age_unit: 'y',
+    info: "Cây Cỏ Mỡ là một loại cây dược liệu và thực phẩm. Lá cây có chứa nhiều chất dinh dưỡng và có tác dụng giảm cholesterol và huyết áp",
+    status: "LC",
+    source: require('../assets/pants/11.jpg')
+  },
+
+  {
+    id: "12",
+    name: "Cây Bồ Đề",
+    scientific_name: "Nelumbo nucifera",
+    origin: "Châu Á",
+    avg_age: "100 - 1000",
+    age_unit: 'y',
+    info: "Cây Bồ Đề là một loài cây hoa nổi tiếng, biểu tượng của nhiều quốc gia. Hoa của cây có hình dáng đẹp và mang ý nghĩa tâm linh sâu sắc.",
+    status: "LC",
+    source: require('../assets/pants/12.jpg')
+  },
+
+  {
+    id: "13",
+    name: " Cây Sả",
+    scientific_name: "Cymbopogon citratus",
+    origin: "Châu Á",
+    avg_age: "2 - 3",
+    age_unit: 'y',
+    info: "Cây Sả được sử dụng trong dược liệu và làm gia vị. Lá cây có mùi thơm đặc trưng và có tác dụng chống vi khuẩn và giảm viêm.",
+    status: "LC",
+    source: require('../assets/pants/13.png')
+  },
+
+  {
+    id: "14",
+    name: "Cây Lan Hài",
+    scientific_name: "Phalaenopsis spp.",
+    origin: "Châu Á",
+    avg_age: "2 - 5",
+    age_unit: 'y',
+    info: "Cây Lan Hài là một loại cây hoa phổ biến trong cảnh quan đô thị. Hoa của cây có hình dáng đẹp và màu sắc đa dạng.",
+    status: "LC",
+    source: require('../assets/pants/14.jpg')
+  },
+
+  {
+    id: "15",
+    name: "Cây Đậu Hà Lan",
+    scientific_name: "Phaseolus vulgaris",
+    origin: "Mỹ, Trung Mỹ",
+    avg_age: "2 - 4",
+    age_unit: 'm',
+    info: "Cây Đậu Hà Lan là một loại cây lương thực quan trọng. Hạt của cây chứa nhiều chất dinh dưỡng và là nguồn thực phẩm phổ biến trên toàn thế giới.",
+    status: "LC",
+    source: require('../assets/pants/15.jpg')
+  },
+
+  {
+    id: "16",
+    name: "Cây Gõ Trắng",
+    scientific_name: "Chionanthus retusus",
+    origin: "Trung Quốc",
+    avg_age: "50 - 100",
+    age_unit: 'y',
+    info: "Cây Gõ Trắng là một loại cây gỗ quý hiếm, được sử dụng trong chế tác đồ gỗ, nội thất và công trình kiến trúc.",
+    status: "EN",
+    source: require('../assets/pants/16.jpg')
+  },
+
+  {
+    id: "17",
+    name: "Cây Bạch Truật",
+    scientific_name: "Acorus calamus",
+    origin: "Châu  u, Châu Á",
+    avg_age: "5 - 10",
+    age_unit: 'y',
+    info: "Cây Bạch Truật được sử dụng trong dược liệu và làm đẹp. Rễ cây có chứa các chất có tác dụng chống vi khuẩn và giảm viêm.",
+    status: "LC",
+    source: require('../assets/pants/17.jpg')
+  },
+
+  {
+    id: "18",
+    name: "Cây Đại hoàng",
+    scientific_name: "Reynoutria japonica",
+    origin: "Châu Á",
+    avg_age: "20 - 30",
+    age_unit: 'y',
+    info: "Cây cảnh quan đô thị, có lá lớn và hoa nhỏ, thích nghi tốt với môi trường đô thị.",
+    status: "LC",
+    source: require('../assets/pants/18.jpg')
+  },
+// im slowly losing it
+  {
+    id: "19",
+    name: "Cây Trà",
+    scientific_name: "Camellia sinensis",
+    origin: "Châu Á",
+    avg_age: "30-50",
+    age_unit: 'y',
+    info: "Cây trà, lá được sử dụng để sản xuất trà", // why is this so short
+    status: "LC",
+    source: require('../assets/pants/19.png')
+  },
+
+  {
+    id: "20",
+    name: "Cây Sơn Trà",
+    scientific_name: "Diospyros lotus",
+    origin: "Việt Nam",
+    avg_age: "50-100",
+    age_unit: 'y',
+    info: "Cây cảnh quan đô thị, có quả màu đỏ và được sử dụng trong chế biến thực phẩm.",
+    status: "LC",
+    source: require('../assets/pants/20.jpg')
+  },
+
+  {
+    id: "21",
+    name: "Cây Lan Hồ Điệp",
+    scientific_name: "Phalaenopsis spp.",
+    origin: "Châu Á",
+    avg_age: "5-10",
+    age_unit: 'y',
+    info: "Cây hoa, được trồng vì hoa đẹp và thích nghi tốt với môi trường trong nhà.",
+    status: "LC",
+    source: require('../assets/pants/21.jpg')
+  },
+
+  {
+    id: "22",
+    name: "Cây Cỏ Lúa Mạch",
+    scientific_name: "Hordeum vulgare",
+    origin: "Châu Á",
+    avg_age: "3-4",
+    age_unit: 'm',
+    info: "Cây lương thực, được sử dụng để sản xuất bia và thức ăn cho gia súc.",
+    status: "LC",
+    source: require('../assets/pants/22.png')
+  },
+
+  {
+    id: "23",
+    name: "Cây Tràm",
+    scientific_name: "Melaleuca cajuputi",
+    origin: "Việt Nam",
+    avg_age: "30-50",
+    age_unit: 'y',
+    info: "Cây gỗ, được sử dụng trong ngành công nghiệp gỗ, sản xuất dầu tràm và có tác dụng chống vi khuẩn.",
+    status: "LC",
+    source: require('../assets/pants/23.jpg')
+  },
+
+  {
+    id: "24",
+    name: "Cây Sâm cau",
+    scientific_name: "Curculigo orchioides",
+    origin: "Châu Á",
+    avg_age: "5-7",
+    age_unit: 'y',
+    info: "Dược liệu, được sử dụng trong y học truyền thống để tăng cường sinh lực và chữa bệnh.",
+    status: "LC",
+    source: require('../assets/pants/24.jpg')
+  },
+
+  {
+    id: "25",
+    name: "Cây Lan Vũ Nữ",
+    scientific_name: "Cymbidium spp.",
+    origin: "Châu Á",
+    avg_age: "5-10",
+    age_unit: 'y',
+    info: "Cây hoa, có nhiều giống và màu sắc khác nhau. Thường được trồng để trang trí vườn hoa và làm cây cảnh trong nhà.",
+    status: "LC",
+    source: require('../assets/pants/25.jpg')
+  },
+
+  {
+    id: "26",
+    name: "Cây Đậu Phộng",
+    scientific_name: "Arachis hypogaea",
+    origin: "Nam Mỹ",
+    avg_age: "3-5",
+    age_unit: 'm',
+    info: "Cây lương thực, hạt đậu phộng được sử dụng làm thực phẩm và nguyên liệu trong công nghiệp.",
+    status: "LC",
+    source: require('../assets/pants/26.jpg')
+  },
+
+  {
+    id: "27",
+    name: "Cây Trắc Thối",
+    scientific_name: "Dalbergia tonkinensis Prain",
+    origin: "Việt Nam",
+    avg_age: "50-100",
+    age_unit: 'y',
+    info: "Cây gỗ quý, được sử dụng trong nghề mộc và làm đồ thủ công.",
+    status: "VU",
+    source: require('../assets/pants/27.jpg')
+  },
+
+  {
+    id: "28",
+    name: "Cây Nha Đam",
+    scientific_name: "Aloe vera",
+    origin: "Châu Phi",
+    avg_age: "5-10",
+    age_unit: 'y',
+    info: "Cây làm đẹp, gel từ lá nha đam được sử dụng trong sản phẩm chăm sóc da và làm thuốc bổ.",
+    status: "LC",
+    source: require('../assets/pants/28.jpg')
+  },
+
+  {
+    id: "29",
+    name: " Cây Đậu Nành",
+    scientific_name: "Glycine max",
+    origin: "Đông Á",
+    avg_age: "3-5",
+    age_unit: 'm',
+    info: "Cây lương thực, hạt đậu nành được sử dụng làm thực phẩm và nguyên liệu trong công nghiệp.",
+    status: "LC",
+    source: require('../assets/pants/29.jpg')
+  },
+
+  {
+    id: "30",
+    name: "Cây Bạch đàn",
+    scientific_name: "Santalum album",
+    origin: "Ấn Độ, Châu Á",
+    avg_age: "30-50",
+    age_unit: 'y',
+    info: "Cây gỗ quý, được sử dụng trong nghề mộc và sản xuất dầu hương liệu.",
+    status: "VU",
+    source: require('../assets/pants/30.jpg')
+  },
+
+  {
+    id: "31",
+    name: "Cây Lá Lốt",
+    scientific_name: "Piper sarmentosum",
+    origin: "Châu Á",
+    avg_age: "2-3",
+    age_unit: 'y',
+    info: "Cây làm đẹp và gia vị, lá lốt được sử dụng trong nhiều món ăn truyền thống.",
+    status: "LC",
+    source: require('../assets/pants/31.jpg')
+  },
+
+  {
+    id: "32",
+    name: "Cây sao đen",
+    scientific_name: "Hopea odorata",
+    origin: "Ấn Độ",
+    avg_age: "8-10",
+    age_unit: 'y',
+    info: "Cây Sao Đen ngoài có công dụng hữu ích như làm đẹp cảnh quan, điều hòa và lọc không khí ra thì loại cây này còn có giá trị cao trong kinh tế từ thân, nhựa đến vỏ của cây đều có giá trị",
+    status: "LC",
+    source: require('../assets/pants/32.png')
+  },
+
+  {
+    id: "33",
+    name: "Cây bằng lăng",
+    scientific_name: "Lagerstroemia speciosa",
+    origin: "Ấn Độ",
+    avg_age: "10 – 20",
+    age_unit: 'y',
+    info: "Quả, lá của cây bằng lăng luôn là bài thuốc dân gian được sử dụng khá nhiều trong hỗ trợ điều trị tiểu đường và viêm dạ dày.",
+    status: "LC",
+    source: require('../assets/pants/33.jpg')
+  },
+
+  {
+    id: "34",
+    name: "Cây xà cừ",
+    scientific_name: "Khaya senegalensis",
+    origin: "Sudan Châu Phi",
+    avg_age: "8 - 15",
+    age_unit: 'y',
+    info: "Gỗ cây xà cừ từ lâu đã nổi tiếng và có giá khá cao. Gỗ xà cừ đỏ, đẹp, chịu lực rất tốt, dễ uốn nắn nên được dùng để làm nhiều vật dụng gỗ, trang trí nội thất",
+    status: "LC",
+    source: require('../assets/pants/34.jpg')
+  },
+
+  {
+    id: "35",
+    name: " Cây Lim Xẹt",
+    scientific_name: "Peltophorum pterocarpum",
+    origin: "Australia",
+    avg_age: "30",
+    age_unit: 'y',
+    info: "Lim xẹt là một trong các loài cây chủ lực chiếm cơ cấu cao trong hệ thống cây xanh đô thị",
+    status: "NE",
+    source: require('../assets/pants/35.jpg')
   },
 
 
