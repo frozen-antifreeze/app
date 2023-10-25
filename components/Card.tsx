@@ -105,7 +105,11 @@ const Card = (props: any) => {
             <Clock size={icon_size} style={ts.icon} color={color.gray8} />
             <Text style={ts.body}>
               {props.avg_age}
-              {props.age_unit}
+              {!(props.avg_age.startswith("v") || props.avg_age.startswith("h"))
+                ? props.age_unit
+                : props.age_unit == "y"
+                ? "năm"
+                : "tháng"}
             </Text>
           </View>
         </View>

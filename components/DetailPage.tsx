@@ -29,7 +29,7 @@ const DetailPage = (props: any) => {
       >
         <ScrollView style={{ height: "100%" }}>
           <View style={ts.page}>
-            <Text style={ts.title}>{props.name} {props.id=='35'&&'(Muồng Kim Phượng)'}{props.id=='27'&&'(Sưa Đỏ)'}</Text>
+            <Text style={ts.title}>{props.name} {props.additonal_name && `(${props.additonal_name})`}</Text>
 
             <Text style={ts.scientific}>{props.scientific_name}</Text>
 
@@ -71,7 +71,7 @@ const ts = StyleSheet.create({
     textAlign: "left",
     justifyContent: "flex-start",
     marginBottom: 14,
-    lineHeight:24
+    lineHeight: 24,
     // height: 16,
   },
   icon: {
